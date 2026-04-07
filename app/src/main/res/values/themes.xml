@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.JumpScare" parent="android:Theme.Material.NoTitleBar">
+    <style name="Theme.JumpScare" parent="android:Theme.Black.NoTitleBar">
         <item name="android:windowBackground">@android:color/black</item>
     </style>
 
-    <style name="Theme.JumpScare.Fullscreen" parent="Theme.JumpScare">
+    <style name="Theme.JumpScare.Fullscreen" parent="android:Theme.Black.NoTitleBar">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
