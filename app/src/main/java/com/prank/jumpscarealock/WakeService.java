@@ -38,7 +38,7 @@ public class WakeService extends Service {
             .setContentTitle("System")
             .setContentText("")
             .setSmallIcon(android.R.drawable.ic_lock_idle_lock)
-            .setSilent(true)
+            .setNotificationSilent()
             .build();
     }
 
